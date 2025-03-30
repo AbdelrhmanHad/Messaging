@@ -1,0 +1,172 @@
+ <style>
+   /* Global Body Styles */
+   body {
+       background-color: #f8f9fa;
+       font-family: 'Roboto', sans-serif;
+       color: #333;
+   }
+
+   /* Container Styles */
+   .container {
+       max-width: 1000px;
+       margin: 0 auto;
+       padding-top: 30px;
+   }
+
+   /* Form Container */
+   .form-container {
+       max-width: 800px;
+       margin: 30px auto;
+       background-color: #fff;
+       border-radius: 10px;
+       box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+       padding: 30px;
+   }
+
+   /* Users List Styling */
+   ul.list-group {
+       max-height: 500px;
+       overflow-y: auto;
+   }
+
+   /* Styling individual user items */
+   .list-group-item {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 15px;
+       background-color: #ffffff;
+       border: 1px solid #ddd;
+       border-radius: 8px;
+       margin-bottom: 10px;
+   }
+
+   /* Button styles */
+   button.btn {
+       border-radius: 5px;
+       font-size: 14px;
+       padding: 5px 10px;
+   }
+
+   button.btn:hover {
+       opacity: 0.9;
+   }
+
+   /* Search bar styling */
+   input[name="search"] {
+       padding: 10px;
+       font-size: 16px;
+       border-radius: 5px;
+       border: 1px solid #ddd;
+       width: 100%;
+       margin-bottom: 10px;
+   }
+
+
+   /* Chat Box Styling */
+   #message-box {
+       border: 1px solid #ddd;
+       padding: 20px;
+       background-color: #fff;
+       border-radius: 10px;
+       max-height: 350px;
+       overflow-y: auto;
+       margin-bottom: 15px;
+   }
+
+   /* Message Styling */
+   #message-box .d-flex {
+       margin-bottom: 10px;
+   }
+
+   #message-box .p-2 {
+       max-width: 75%;
+       padding: 10px;
+       border-radius: 8px;
+       word-wrap: break-word;
+       font-size: 16px;
+   }
+
+   /* Styling for received messages */
+   #message-box .p-2.received {
+       background-color: #f1f1f1;
+       color: #333;
+       text-align: left;
+   }
+
+   /* Styling for sent messages */
+   #message-box .p-2.sent {
+       background-color: #007bff;
+       color: white;
+       text-align: right;
+   }
+
+   /* Block and Report Button Styling (Red) */
+   .btn-block,
+   .btn-report {
+       background-color: #dc3545;
+       border-color: #dc3545;
+       color: white;
+       font-size: 12px;
+       padding: 5px 10px;
+       border-radius: 5px;
+   }
+
+   .btn-block:hover,
+   .btn-report:hover {
+       background-color: #FF0000;
+       border-color: #bd2130;
+   }
+
+   /* Delete Button Styling (Yellow) */
+   .btn-delete {
+       background-color: #ffc107;
+       border-color: #ffc107;
+       color: black;
+       font-size: 12px;
+       padding: 5px 10px;
+       border-radius: 5px;
+   }
+
+   .btn-delete:hover {
+       background-color: #e0a800;
+       border-color: #d39e00;
+   }
+
+   /* Styling for the error message */
+   .alert-danger {
+       margin-top: 20px;
+       background-color:#FF0000;
+       color: black;        
+       font-weight: bold;   
+       font-size: 16px;     
+       
+   }
+
+   /* Message Input Styling */
+   textarea[name="message"] {
+       width: 100%;
+       padding: 12px;
+       font-size: 16px;
+       border-radius: 8px;
+       border: 1px solid #ddd;
+       margin-bottom: 10px;
+   }
+
+   textarea[name="message"]:focus {
+       outline: none;
+       border-color: #007bff;
+       box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+   }
+
+   /* Adjusting the button on form */
+   button[type="submit"] {
+       width: 100%;
+       font-size: 16px;
+       padding: 12px;
+       color: white;
+       border-radius: 8px;
+       border: none;
+   }
+
+</style>
